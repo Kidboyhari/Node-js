@@ -1,5 +1,6 @@
 const names = require('./firstmodule')
-console.log(names)
-// sayHi('susan')
-// sayHi(kishan)
-// sayHi(harry)
+const sayHi = require('./utils')
+
+sayHi('susan')
+sayHi(names.kishan)
+sayHi(names.harry)
