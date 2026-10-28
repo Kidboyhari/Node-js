@@ -1,6 +1,7 @@
 const names = require('./firstmodule')
 const sayHi = require('./utils')
-
+const data = require('./alternative-syntax')
+console.log(data)
 sayHi('susan')
 sayHi(names.kishan)
 sayHi(names.harry)
